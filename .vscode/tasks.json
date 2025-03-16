@@ -4,9 +4,10 @@
                "label": "Create Build Directory",
                "type": "shell",
                "command": "mkdir",
-               "args": ["-p", "${workspaceFolder}/build"],
+               "args": ["-p", "${workspaceFolder}/build",],
                "problemMatcher": []
            },
+           
            {
                "type": "cppbuild",
                "label": "C/C++: clang build active file",

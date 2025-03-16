@@ -1,6 +1,7 @@
-#include <iostream>
-#include <sstream>
-using namespace std;
+#include "./Vector_Array.h"
+
+#include<cmath>
+
 //无序列表，按值查找
 int find_by_key_with_not_orderd(int key,int A[],int length){
        int isFind=-1;
@@ -119,15 +120,15 @@ bool delete_by_key(int key,int A[],int length){
 }
 
 
-int main(){
+// int main(){
 
-       int A[10] = {1,2,3,4,5,6,7,8,9,0};
-       int B[10] = {1,4,2,5,7,5,8,6,9,0};
+//        int A[10] = {1,2,3,4,5,6,7,8,9,0};
+//        int B[10] = {1,4,2,5,7,5,8,6,9,0};
 
-       cout<< delete_by_key(2,A,10)<<endl;
-       cout<< find_by_key_with_not_orderd(2,A,10)<<endl;
-       cout<< find_by_key_with_not_orderd(2,B,10)<<endl;
-       cout<<find_by_key_with_orderd_balance(7,A,10);
-       // cout<<find_by_key_with_orderd_fibonace(1,A,10);
-       return 0;
-}
+//        cout<< delete_by_key(2,A,10)<<endl;
+//        cout<< find_by_key_with_not_orderd(2,A,10)<<endl;
+//        cout<< find_by_key_with_not_orderd(2,B,10)<<endl;
+//        cout<<find_by_key_with_orderd_balance(7,A,10);
+//        // cout<<find_by_key_with_orderd_fibonace(1,A,10);
+//        return 0;
+// }
