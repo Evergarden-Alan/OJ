@@ -86,30 +86,30 @@ bool delete_by_key(int key, int A[], int& length) {
 }
 
 // 测试代码
-// int main() {
-//     const int MAX_SIZE = 100; // 数组最大长度
-//     int A[MAX_SIZE] = {1, 3, 5, 7, 9, 11}; // 初始数据
-//     int length = 6;
+int main() {
+    const int MAX_SIZE = 100; // 数组最大长度
+    int A[MAX_SIZE] = {1, 3, 5, 7, 9, 11}; // 初始数据
+    int length = 6;
 
-//     cout << "线性查找 (5): " << find_by_key_with_not_ordered(5, A, length) << endl;
-//     cout << "二分查找 (7): " << binary_search(7, A, length) << endl;
-//     cout << "斐波那契查找 (11): " << fibonacci_search(11, A, length) << endl;
+    cout << "线性查找 (5): " << find_by_key_with_not_ordered(5, A, length) << endl;
+    cout << "二分查找 (7): " << binary_search(7, A, length) << endl;
+    cout << "斐波那契查找 (11): " << fibonacci_search(11, A, length) << endl;
 
-//     if (insert(6, 3, A, length, MAX_SIZE)) {
-//         cout << "插入成功: ";
-//         for (int i = 0; i < length; i++) cout << A[i] << " ";
-//         cout << endl;
-//     } else {
-//         cout << "插入失败" << endl;
-//     }
+    if (insert(6, 3, A, length, MAX_SIZE)) {
+        cout << "插入成功: ";
+        for (int i = 0; i < length; i++) cout << A[i] << " ";
+        cout << endl;
+    } else {
+        cout << "插入失败" << endl;
+    }
 
-//     if (delete_by_key(5, A, length)) {
-//         cout << "删除成功: ";
-//         for (int i = 0; i < length; i++) cout << A[i] << " ";
-//         cout << endl;
-//     } else {
-//         cout << "删除失败" << endl;
-//     }
+    if (delete_by_key(5, A, length)) {
+        cout << "删除成功: ";
+        for (int i = 0; i < length; i++) cout << A[i] << " ";
+        cout << endl;
+    } else {
+        cout << "删除失败" << endl;
+    }
 
-//     return 0;
-// }
+    return 0;
+}
