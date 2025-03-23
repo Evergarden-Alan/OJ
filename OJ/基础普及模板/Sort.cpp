@@ -1,5 +1,7 @@
 #include<iostream>
 #include<vector>
+#include <sstream>
+#include <algorithm>
 
 using namespace std;
 
@@ -10,9 +12,12 @@ int main(){
        scanf("%d",&len);
 
        vector<int> list;
+
+       string line;
+       getline(cin, line);  // 读取整行输入
+       stringstream ss(line);
        int value;
-       while (cin>>value)
-       {
+       while (ss >> value) {
               list.push_back(value);
        }
        

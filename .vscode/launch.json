@@ -1,28 +1,15 @@
-原本的launch是：
 {
        "version": "0.2.0",
        "configurations": [
-           {
-               "name": "C++ Launch",
-               "type": "cppdbg",
-               "request": "launch",
-               "program": "${workspaceFolder}/build/${fileBasenameNoExtension}",
-               "args": [],
-               "stopAtEntry": false,
-               "cwd": "${workspaceFolder}/build",
-               "environment": [],
-               "externalConsole": true,
-               "MIMode": "lldb",
-               "setupCommands": [
-                   {
-                       "description": "Enable pretty-printing for lldb",
-                       "text": "settings set target.pretty-printing true",
-                       "ignoreFailures": true
-                   }
-               ],
-               "MIDebuggerPath": "/usr/bin/lldb",
-               "preLaunchTask": "C/C++: clang build active file",
-               "console": "integratedTerminal"  // 确保输出显示在 VS Code 的 Terminal
-           }
-       ]
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug",
+            "terminal": "integrated",
+            "program": "${workspaceFolder}/build/${fileBasenameNoExtension}",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+
    }

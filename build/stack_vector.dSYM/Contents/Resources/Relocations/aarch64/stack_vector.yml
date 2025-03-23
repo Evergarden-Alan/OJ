@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/alanturing/Documents/workBatch/note/代码/build/stack_vector"
+relocations:     []
+...
