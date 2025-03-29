@@ -66,7 +66,7 @@ int main(){
 
 
 //通过栈顶栈底指针维护push、pop
-cout<<"********************"<<endl;
+cout << "********************" << endl;
        vector<int> mystack2;
        int top=0,bottom=0;
 

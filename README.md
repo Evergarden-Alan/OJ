@@ -10,9 +10,16 @@
 
 1. stack_link.cpp实现链式栈✅25-3-23
 2. stack_vector.cpp实现了线性栈✅25-3-23
-2. stack_STL.cpp调用STL的stack✅25-3-23
+3. stack_STL.cpp调用STL的stack✅25-3-23
 
 ### 队列
+
+1. queue_vector.cpp实现了线性队列，方向为左进右出✅25-3-29
+2. queue_vector2.cpp实现了线性队列，方向为右进左出✅25-3-29
+3. queue_double_stack.cpp实现了双栈模拟队列✅25-3-29
+4. queue_deque.cpp练习了STL的双端队列使用✅25-3-29
+5. queue_STL.cpp练习了STL的队列使用✅25-3-29
+6. queue_cycle.cpp实现了循环队列✅25-3-29
 
 ### 树
 
@@ -31,3 +38,4 @@
 ## OJ
 
 1. 基础普及模板✅25.3.22
+2. OIWiKi在队列部分给出的例题，自己实现的方式有问题，待解决✅25.3.29
